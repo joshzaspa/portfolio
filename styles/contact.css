@@ -1,0 +1,149 @@
+@import url('/styles/global.css');
+@import url('/styles/variables.css');
+
+.contact_section {
+    display: flex;
+    padding: 64px 112px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+
+}
+
+
+.contact_section > .content_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.content_section .infos_and_illustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.content_section .infos_and_illustration img {
+    width: 310px;
+    height: 335px;
+}
+
+.content_section .headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.content_section .headers .header_text, span {
+    color: var(--default-primary);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+    width: 326px;
+}
+
+.content_section .headers > .header_text span {
+    color: var(--primary-main);
+}
+
+.content_section .headers > .subheader_text {
+    color: var(--default-primary);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.content_section .CTA_and_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.content_section .CTA_and_links .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.content_section .CTA_and_links .links img {
+    width: 32px;
+    height: 32px;
+}
+
+.content_section .CTA_and_links .dividers {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.content_section .CTA_and_links .dividers div {
+    height: 2px;
+    flex: 1 0 0;
+    background: var(--default-tertiary);
+}
+
+.content_section .CTA_and_links #send_email_btn {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .contact_section {
+        padding: 64px 112px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .contact_section {
+        padding: 64px 64px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact_section {
+        padding: 56px 64px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .contact_section {
+        padding: 56px 40px;
+    }
+
+    .content_section .infos_and_illustration img {
+        width: 250px;
+        height: 270.249px;
+    }
+
+    .content_section .headers .header_text, span {
+        font-size: 32px;
+        line-height: 56px;
+    }
+
+    .content_section .headers > .subheader_text {
+        font-size: 14px;
+    }
+}

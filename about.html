@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Zaspa</title>
+    <link rel="icon" type="image/png" href="/assets/img/my_logo_black.png">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/about.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo_holder">
+            <img src="/assets/img/my_logo_black.png" alt="">
+        </div>
+
+        <ul class="navbar_items">
+            <li class="nav_item">
+                <a class="nav_link" href="index.html">HOME</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link" href="projects.html">PROJECTS</a>
+            </li>
+            <li class="nav_item" id="active_nav_item">
+                <a class="nav_link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link" href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+
+        <button class="hamburger_menu" onclick="show()">
+            <img id="menu_icon" src="/assets/menu_icon.svg" alt="">
+        </button> 
+    </nav>
+
+    <!-- Sidebar Section -->
+    <aside class="sidebar">
+        <div>
+            <div class="header_section">
+                <button class="close_menu" onclick="show()">
+                    <img id="close_icon" src="/assets/close_icon.svg" alt="">
+                </button>
+    
+                <div class="sidebar_logo_holder">
+                    <img class="sidebar_icon" src="/assets/img/my_logo_black.png" alt="">
+                </div>
+            </div>
+    
+            <ul class="sidebar_items">
+                <li class="nav_item">
+                    <a class="nav_link" href="index.html">HOME</a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_link" href="projects.html">PROJECTS</a>
+                </li>
+                <li class="nav_item" id="active_sidebar_item">
+                    <a class="nav_link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+
+        </div>
+    </aside>
+
+    <div class="sidebar_backdrop" onclick="show()"></div>
+
+
+    <!-- About Section -->
+    <section class="about_section">
+        <div class="content_section">
+            <div class="content_holder">
+                <img class="my_img_background" src="/assets/tools_logos.svg" alt="">
+                <div class="my_img"></div>
+            </div>
+            <div class="about_me_descriptions">
+                <div>
+                    <h1>Hello</h1>
+                    <img src="/assets/wavehand_icon.svg" alt="">
+                </div>
+                <p class="description">
+                    My name is <span>Joshua Zaspa</span>, a dedicated <span>Designer and Front-End Developer</span> 
+                    aspirant. I graduated from Bulacan State University with a 
+                    <span>Bachelor of Science in Information Technology</span>, specializing in <span>Web and Mobile Application Development</span> degree.
+                    <br><br>
+                    I am skilled of utilizing industry-standard design applications like <span>Figma</span>, 
+                    <span>Adobe Illustrator</span>, and <span>Adobe XD</span>, as well as programming languages like <span>HTML</span>, 
+                    <span>CSS</span>, <span>JavaScript</span>, <span>Java</span>, and <span>Python</span>.
+                    <br><br>
+                    My ability lies in <span>creating current and innovative designs</span> that are well aligned with the product's essential objectives. 
+                    I take a thorough approach to my work, maintaining a perfect <span>balance of beauty and usefulness</span>. 
+                    And also, I'm always <span>willing to learn</span> new thing and <span>open to suggestion</span> to deliver the best possible output. 
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer_section">
+        <p id="copywright_text">&copy 2023 by Joshua Zaspa</p>
+        <div class="footer_links">
+            <a href="" onclick="sendingEmail()"><img src="/assets/email_icon.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/joshua-zaspa/" target="_blank"><img src="/assets/linkedin_icon.svg" alt=""></a>
+            <a href="https://www.behance.net/joshuazaspa" target="_blank"><img src="/assets/behance_icon.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="/src/global.js"></script>
+</body>
+</html>

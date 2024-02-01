@@ -1,0 +1,103 @@
+{
+    "projects": [
+        {
+            "id" : 1,
+            "coverImg": "/assets/img/projects/elerior_thumbnail.png",
+            "title": "ELERIOR",
+            "subtitle": "Responsive Landing Page Design",
+            "behanceLink": "https://www.behance.net/gallery/179974081/ELERIOR-Responsive-Landing-Page-Design",
+            "view_on_homepage": true
+        },
+        {
+            "id" : 2,
+            "coverImg": "/assets/img/projects/shugrup_thumbnail.png",
+            "title": "Shugrup",
+            "subtitle": "Shoe E-Commerce Website",
+            "behanceLink": "https://www.behance.net/gallery/179514585/SHUGRUP-Shoe-E-Commerce-Website",
+            "view_on_homepage": true
+        },
+        {
+            "id" : 3,
+            "coverImg": "/assets/img/projects/eyeshot_thumbnail.png",
+            "title": "EYESHOT",
+            "subtitle": "Social media platform based on stories",
+            "behanceLink": "https://www.behance.net/gallery/179126821/EYESHOT-(Mobile-App-Prototype)",
+            "view_on_homepage": true
+        },
+        {
+            "id" : 4,
+            "coverImg": "/assets/img/projects/hero_section_template_thumbnail.png",
+            "title": "Hero Section - UI Design",
+            "subtitle": "Different Layouts of Hero Sections",
+            "behanceLink": "https://www.behance.net/gallery/183340769/Hero-Section-UI-Design",
+            "view_on_homepage": true
+        },
+        {
+            "id" : 5,
+            "coverImg": "/assets/img/projects/core_thumbnail.png",
+            "title": "CORE (Design System)",
+            "subtitle": "Figma UI Kit Libray Design",
+            "behanceLink": "https://www.behance.net/gallery/181389929/CORE-FIGMA-UI-KIT-LIBRARY-DESIGN",
+            "view_on_homepage": true
+        },
+        {
+            "id" : 6,
+            "coverImg": "/assets/img/projects/music_player_thumbnail.png",
+            "title": "Simple Music Player",
+            "subtitle": "Mobile App Prototype of a Music Player",
+            "behanceLink": "https://www.behance.net/gallery/182648847/Simple-Music-Player-Mobile-App-Prototype",
+            "view_on_homepage": true
+        },
+
+        {
+            "id" : 7,
+            "coverImg": "/assets/img/projects/penwork_thumbnail.png",
+            "title": "Penwork",
+            "subtitle": "Hero Section Prototype",
+            "behanceLink": "https://www.behance.net/gallery/178658975/Penwork-(Hero-Section-Prototype)",
+            "view_on_homepage": false
+        },
+        {
+            "id" : 8,
+            "coverImg": "/assets/img/projects/shugrup_thumbnail.png",
+            "title": "Web-based POS Dashboard",
+            "subtitle": "UI Design",
+            "behanceLink": "https://www.behance.net/gallery/176500149/Web-based-POS-Dashboard-(UI-Design)",
+            "view_on_homepage": false
+        },
+
+        {
+            "id" : 9,
+            "coverImg": "/assets/img/projects/wheather_app_thumbnail.png",
+            "title": "Wheather Mobile App",
+            "subtitle": "UI Design",
+            "behanceLink": "https://www.behance.net/gallery/176819771/Weather-Mobile-App",
+            "view_on_homepage": false
+        },
+        {
+            "id" : 10,
+            "coverImg": "/assets/img/projects/insight_thumbnail.png",
+            "title": "Insight Enterprises",
+            "subtitle": "Landing Page Redesign",
+            "behanceLink": "https://www.behance.net/gallery/183918189/Insight-Enterprises-(Shop-Page-Redesign)",
+            "view_on_homepage": false
+        },
+        {
+            "id" : 11,
+            "coverImg": "/assets/img/projects/sm_banner_thumbnail.png",
+            "title": "Product Social Media Banner",
+            "subtitle": "Social Media Banner Design",
+            "behanceLink": "https://www.behance.net/gallery/182258279/Product-Social-Media-Banner",
+            "view_on_homepage": false
+        },
+        {
+            "id" : 12,
+            "coverImg": "/assets/img/projects/fg_icons_thumbnail.png",
+            "title": "FROSTED GLASS ICON DESIGN",
+            "subtitle": "Icon Design",
+            "behanceLink": "https://www.behance.net/gallery/178743863/FROSTED-GLASS-ICON-DESIGN",
+            "view_on_homepage": false
+        }
+    ]
+
+}

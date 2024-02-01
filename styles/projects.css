@@ -1,0 +1,66 @@
+@import url('/styles/global.css');
+@import url('/styles/variables.css');
+
+/* Project Showcase Section */
+.project_showcase_section{
+    display: flex;
+    padding: 96px 112px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.project_showcase_section .section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.project_showcase_section .section_header > h1 {
+    color: var(--default-primary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.project_showcase_section .section_header > a {
+    color: var(--default-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .project_showcase_section {
+        padding: 80px 80px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .project_showcase_section {
+        padding: 80px 64px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .project_showcase_section {
+        padding: 80px 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .project_showcase_section {
+        padding: 64px 40px;
+    }
+}
