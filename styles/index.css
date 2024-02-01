@@ -99,10 +99,6 @@
     height: 300px;
     border-radius: 200px;
     outline: 32px solid #C1C1C1;
-    background: url('/assets/img/my_photo.jpg'); 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .right_side #hero_img_bg {

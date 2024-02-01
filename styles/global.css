@@ -177,7 +177,6 @@ body {
  
 .sidebar .sidebar_items .nav_item {
     display: flex;
-    padding: 0 24px;
     align-items: center;
     gap: 10px;
     align-self: stretch;
@@ -201,8 +200,7 @@ body {
     font-weight: 400;
     line-height: normal;
     width: 100%;    
-    padding: 16px 0;
-
+    padding: 16px 24px;
 }
 
 .sidebar_backdrop {
