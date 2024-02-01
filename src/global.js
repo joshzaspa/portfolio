@@ -111,6 +111,15 @@ function show() {
     document.querySelector('.sidebar_backdrop').classList.toggle('show_backdrop');
 }
 
+
+function copywrightYear() {
+    let currentYear = new Date().getFullYear();
+
+    document.getElementById('copywright_text').innerHTML = '&copy ' + currentYear + ' by Joshua Zaspa'
+}
+
+copywrightYear();
+
 homepageDisplayCard();
 projectsPageDisplayCard();
 
