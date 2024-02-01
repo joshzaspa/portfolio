@@ -1,6 +1,6 @@
 function homepageDisplayCard() {
 
-    fetch('/json/data.json')
+    fetch('./json/data.json')
         .then(res => res.text())
         .then(data => {
 
