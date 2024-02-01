@@ -1,6 +1,5 @@
-@import url('./styles/global.css');
-@import url('./styles/variables.css');
-
+@import url('./global.css');
+@import url('./variables.css');
 
 .hero_section {
     display: flex;

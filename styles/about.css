@@ -1,5 +1,6 @@
-@import url('/styles/global.css');
-@import url('/styles/variables.css');
+@import url('./global.css');
+@import url('./variables.css');
+
 
 .about_section {
     width: 100%;

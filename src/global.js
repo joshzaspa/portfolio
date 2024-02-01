@@ -35,7 +35,7 @@ function homepageDisplayCard() {
 
 function projectsPageDisplayCard() {
 
-    fetch('/json/data.json')
+    fetch('./json/data.json')
     .then(res => res.text())
     .then(data => {
 
@@ -69,7 +69,7 @@ function downloadCV() {
     let link = document.createElement('a');
 
     link.setAttribute('download', 'CV - Joshua Zaspa');
-    link.href = '/assets/CV.pdf';
+    link.href = './assets/CV.pdf';
 
     document.body.appendChild(link);
     link.click();
