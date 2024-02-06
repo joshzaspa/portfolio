@@ -59,7 +59,7 @@
         },
         {
             "id" : 8,
-            "coverImg": "./assets/img/projects/shugrup_thumbnail.png",
+            "coverImg": "./assets/img/projects/pos_dashboard_thumbnail.png",
             "title": "Web-based POS Dashboard",
             "subtitle": "UI Design",
             "behanceLink": "https://www.behance.net/gallery/176500149/Web-based-POS-Dashboard-(UI-Design)",
@@ -68,7 +68,7 @@
 
         {
             "id" : 9,
-            "coverImg": "./assets/img/projects/wheather_app_thumbnail.png",
+            "coverImg": "/assets/img/projects/wheather_app_thumbnail.png",
             "title": "Wheather Mobile App",
             "subtitle": "UI Design",
             "behanceLink": "https://www.behance.net/gallery/176819771/Weather-Mobile-App",
